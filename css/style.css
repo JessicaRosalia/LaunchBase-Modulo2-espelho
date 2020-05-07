@@ -87,8 +87,8 @@ header{
 /* CARDS */
 
 .cards{
-    max-width:800px;
-    margin:0 auto;
+    max-width:10px;
+    margin: 0 auto;
 }
 
 .card{
@@ -96,7 +96,7 @@ header{
 }
 
 .card_image-container img{
-    width: 100%;
+    width: 100px;
 }
 
 .card_content,

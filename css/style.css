@@ -2,6 +2,7 @@
 
 :root{
     --color-green: #50fa7b;
+    --color-rocket: #7159c1;
 }
 *{
     margin:0;
@@ -92,7 +93,7 @@ header{
 }
 
 .card{
-    background-color: #7159c1;
+    background-color: var(--color-rocket);
 }
 
 .card_image-container img{
@@ -107,4 +108,12 @@ header{
 .card_info{
     display:grid;
     grid-template-columns: 1fr 1fr; /*fraction*/
+}
+
+.card_price{
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
 }

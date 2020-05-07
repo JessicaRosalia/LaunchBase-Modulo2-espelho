@@ -103,3 +103,8 @@ header{
 .card_info{
     padding: 24px;
 }
+
+.card_info{
+    display:grid;
+    grid-template-columns: 1fr 1fr; /*fraction*/
+}

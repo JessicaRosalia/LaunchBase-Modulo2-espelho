@@ -148,3 +148,8 @@ header{
     top:8px;
     cursor: pointer;
 }
+
+/* MODAL.ACTIVE */
+.modal-overlay.active{
+    opacity: 1;
+}

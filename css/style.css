@@ -136,5 +136,12 @@ header{
     background-color: white;
     width:90%;
     height: 90%;
-    margin: 5 vh auto;
+    margin: 5vh auto;
+}
+
+.modal .close-modal{
+    color: black;
+    position: absolute;
+    right: 8px;
+    top:8px;
 }
